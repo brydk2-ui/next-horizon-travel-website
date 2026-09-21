@@ -789,3 +789,12 @@
 /* V39 Resorts & Vacations refinements */
 .rd-mexico{background-image:url('../images/production/mexico-resort.webp')}
 .rd-inclusive{background-image:url('../images/production/all-inclusive-lifestyle.webp');background-position:center 42%}
+
+/* V40 Guided & Custom Journeys refinements */
+.journey-intro{padding-bottom:38px}
+.journey-choices{padding-top:38px}
+.journey-partner-note{max-width:920px;margin:0 auto 30px;text-align:center;font-size:14px;line-height:1.6;color:#496275}
+.journey-choice-grid{align-items:stretch}
+.journey-choice{height:100%}
+.journey-cta{min-height:190px}
+@media(max-width:700px){.journey-partner-note{text-align:left;margin-bottom:24px}}
