@@ -832,3 +832,12 @@
   .more-world{padding-top:62px}
   .group-help-v15a .wrap{width:min(100% - 32px,1180px)}
 }
+
+/* ===== V42 About page final refinements ===== */
+@media(min-width:951px){
+  .about-photo-v21{height:500px}
+  .about-photo-v21 img{object-position:center 38%}
+  .about-expertise-v21{padding-top:62px;padding-bottom:62px}
+  .about-expertise-grid-v21{align-items:center;gap:58px}
+  .about-credentials-v21>div{padding:14px 20px}
+}
