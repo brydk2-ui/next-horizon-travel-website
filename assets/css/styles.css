@@ -785,3 +785,7 @@
 }
 .cruise-help-grid{align-items:center}
 .timing-row-v29 b{min-width:118px}
+
+/* V39 Resorts & Vacations refinements */
+.rd-mexico{background-image:url('../images/production/mexico-resort.webp')}
+.rd-inclusive{background-image:url('../images/production/all-inclusive-lifestyle.webp');background-position:center 42%}
