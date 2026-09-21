@@ -798,3 +798,37 @@
 .journey-choice{height:100%}
 .journey-cta{min-height:190px}
 @media(max-width:700px){.journey-partner-note{text-align:left;margin-bottom:24px}}
+
+/* ===== V41 layout polish: Destinations + Group Travel ===== */
+.more-world{
+  padding-top:96px;
+}
+.more-world .section-heading{
+  margin-top:0;
+}
+
+.group-help-v15a{
+  overflow:hidden;
+}
+.group-help-v15a .wrap{
+  width:min(1180px, calc(100% - 48px));
+  margin-inline:auto;
+}
+.group-help-grid-v15a{
+  grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);
+  gap:64px;
+}
+.group-help-grid-v15a h2{
+  font-size:clamp(34px,3.15vw,46px);
+  max-width:520px;
+}
+
+@media(max-width:950px){
+  .more-world{padding-top:76px}
+  .group-help-grid-v15a{grid-template-columns:1fr;gap:32px}
+  .group-help-grid-v15a h2{max-width:680px}
+}
+@media(max-width:600px){
+  .more-world{padding-top:62px}
+  .group-help-v15a .wrap{width:min(100% - 32px,1180px)}
+}
