@@ -648,7 +648,7 @@
 .form-status-v34.error{display:block;background:#fff3f2;border:1px solid #e7c1bd;color:#762b24}
 
 /* ===== V35 production image library: all-local assets ===== */
-.hero{background-image:url('../images/hero-santorini-clean.jpg')}
+.hero{background-image:url('../images/hero-santorini.jpg')}
 .cruise{background-image:url('../images/production/cruise-hero.webp')}
 .resort{background-image:url('../images/production/caribbean-resort.webp')}
 .explore{background-image:url('../images/production/europe-positano.webp')}
@@ -709,7 +709,7 @@
 
 /* About is advisor-led; avoid an unrelated resort image in the philosophy break. */
 .about-philosophy-v21{
-  background-image:linear-gradient(90deg,rgba(5,32,54,.90),rgba(5,32,54,.55)),url('../images/hero-santorini-clean.jpg') !important;
+  background-image:linear-gradient(90deg,rgba(5,32,54,.90),rgba(5,32,54,.55)),url('../images/hero-santorini.jpg') !important;
   background-position:center 50% !important;
   background-size:cover !important;
 }
@@ -742,3 +742,30 @@
   text-shadow:none;
   filter:none;
 }
+
+/* ===== V36 clean Santorini homepage hero ===== */
+.hero{
+  background-image:url('../images/hero-santorini-clean.jpg');
+  background-position:center 52%;
+  background-size:cover;
+}
+.hero .shade{
+  background:linear-gradient(90deg,
+    rgba(4,38,67,.88) 0%,
+    rgba(4,38,67,.78) 30%,
+    rgba(4,38,67,.52) 48%,
+    rgba(4,38,67,.16) 72%,
+    rgba(4,38,67,.04) 100%);
+}
+
+/* ===== V37 homepage refinements ===== */
+.experiences > .photo-card{display:block;color:#fff;cursor:pointer}
+.photo-card .card-link{font-size:12px;font-weight:800;letter-spacing:1.4px}
+.photo-card{transition:transform .25s ease,filter .25s ease}
+.photo-card:hover{filter:brightness(1.04)}
+.photo-card:focus-visible{outline:3px solid var(--teal);outline-offset:-3px}
+.mexico{background-image:url('../images/production/mexico-resort.webp')}
+.about-photo img{object-position:center 42%}
+.h-alaska{background-image:url('../images/production/alaska-sitka-opt.webp')}
+.h-europe{background-image:url('../images/production/europe-positano.webp')}
+.h-cruise{background-image:url('../images/production/cruise-hero.webp')}
