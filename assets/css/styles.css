@@ -769,3 +769,19 @@
 .h-alaska{background-image:url('../images/production/alaska-sitka-opt.webp')}
 .h-europe{background-image:url('../images/production/europe-positano.webp')}
 .h-cruise{background-image:url('../images/production/cruise-hero.webp')}
+
+
+/* V38 cruises-page refinements */
+@media(min-width:901px){
+  .line-card{min-height:315px;padding:22px 24px 22px}
+  .line-logo{height:82px;margin-bottom:6px}
+  .line-logo img{max-height:72px}
+}
+.cruise-help{
+  padding-top:76px;
+  padding-bottom:76px;
+  border-top:1px solid #d7e4e9;
+  background:linear-gradient(180deg,#f4f8f9 0%,#eaf2f5 100%);
+}
+.cruise-help-grid{align-items:center}
+.timing-row-v29 b{min-width:118px}
